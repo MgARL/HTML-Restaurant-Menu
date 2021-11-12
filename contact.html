@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
 </head>
 <body>
     <!-- CONTACT PAGE -->
@@ -13,11 +18,19 @@
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./menu">Menu</a></li>
+            <li><a href="./contact.html" class="selected-page">Contact</a></li>
+            <li><a href="./menu.html">Menu</a></li>
         </ul>
     </nav>
-    <!-- TODO: Banner Image here-->
+   
+    <img id="banner" alt="Banner logo" src="./assets/images/banner.png">
+
+    <div class="holiday-banner">
+        <p>
+            <strong>Attention!!<br></strong>In celebration of thanksgiving, we will be <strong>closed November 25th - 28th.</strong><br> We thank you for your understanding.
+        </p>
+    </div>
+
     <main>
         <h2>Hours of Operation</h2>
         <p>
@@ -28,8 +41,20 @@
         </p>
         <h2>Contact Info</h2>
         <p>
-            <strong>Phone Number:</strong> TBD
+            <i class="fas fa-phone"></i><strong> Phone Number:</strong> <a href="tel:9191234567">(919) 123 - 4567</a>
+        </p>
+        <p>
+            <i class="fas fa-envelope-square"></i><strong> Email:</strong> <a href="mailto:hthaiml@html.thai">hthaiml@html.thai</a>
+        </p>
+        <p>
+            <i class="fas fa-map-marker-alt"></i><strong> Address:</strong> 2356 Wade Avenue, Raleigh, NC 27506
         </p>
     </main>
+
+    <footer>
+        <a href="#"><H2>H-Thai-ML</H2></a>
+        <p class="rights">All rights reserved Copyright 2021<i class="far fa-copyright"></i></p>
+    </footer>
+    
 </body>
 </html>
